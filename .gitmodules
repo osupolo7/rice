@@ -1,0 +1,12 @@
+[submodule ".config/repos/gef"]
+	path = .config/repos/gef
+	url = https://github.com/hugsy/gef.git
+[submodule ".config/repos/pyenv"]
+	path = .config/repos/pyenv
+	url = https://github.com/pyenv/pyenv.git
+[submodule ".config/repos/pyenv-virtualenv"]
+	path = .config/repos/pyenv-virtualenv
+	url = https://github.com/pyenv/pyenv-virtualenv.git
+[submodule ".config/repos/polybar"]
+	path = .config/repos/polybar
+	url = https://github.com/polybar/polybar.git
