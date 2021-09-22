@@ -1,22 +1,23 @@
 
-export ADOTDIR=$HOME/.config/zsh/antigen
-source $HOME/.config/zsh/antigen.zsh
+export $ADOTDIR=$HOME/.antigen
+export ANTIGEN_BUNDLES=$HOME/.zsh/bundles
+source $HOME/.config/repos/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 antigen bundle git
 antigen bundle pip
-antigen bundle osx
-antigen bundle brew
 antigen bundle pyenv
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
+if [ "$(uname 2> /dev/null)" == "Darwin" ]; then
+  antigen bundle osx
+  antigen bundle brew
+fi
+
 antigen theme denysdovhan/spaceship-prompt
 antigen apply
-
-# theme setup
-# (~/.pyenv/versions/3.9.4/envs/cli/bin/wal -q --vte -R 1>/dev/null 2>&1 &)
 
 eval spaceship_vi_mode_enable
 SPACESHIP_PROMPT_ORDER=(

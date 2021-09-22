@@ -40,3 +40,18 @@
 [submodule ".config/repos/ranger-autojump"]
 	path = .config/ranger/plugins/ranger-autojump
 	url = https://github.com/fdw/ranger-autojump.git
+[submodule ".config/repos/antigen"]
+	path = .config/repos/antigen
+	url = https://github.com/zsh-users/antigen.git
+[submodule ".zsh/bundles/robbyrussell/oh-my-zsh"]
+	path = .zsh/bundles/robbyrussell/oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule ".zsh/bundles/denysdovhan/spaceship-prompt"]
+	path = .zsh/bundles/denysdovhan/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt.git
+[submodule ".zsh/bundles/zsh-users/zsh-syntax-highlighting"]
+	path = .zsh/bundles/zsh-users/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule ".zsh/bundles/zsh-users/zsh-autosuggestions"]
+	path = .zsh/bundles/zsh-users/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
