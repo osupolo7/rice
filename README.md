@@ -42,6 +42,9 @@ sudo apt install feh
 feh --bg-scale ~/.config/wallpapers/forest.png
 ```
 
+## Fonts
+`fc-cache -fv`
+
 ## Kitty
 ```bash
 sudo apt install -y python3.6 libharfbuzz-dev zlib libpng liblcms2 freetype libcanberra ImageMagick pygments build-essential pkg-config libdbus-1-dev libxcursor-dev libxrandr-dev libxi-dev libxinerama-dev libgl1-mesa-dev libxkbcommon-x11-dev libfontconfig-dev libx11-xcb-dev liblcms2-dev and libpython3-dev
@@ -51,8 +54,10 @@ sudo make
 python3 .
 ```
 
-## Fonts
-`fc-cache -fv`
+## Rofi
+```bash
+sudo apt install rofi
+```
 
 ## polybar
 ```bash
