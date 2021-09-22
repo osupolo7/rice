@@ -10,3 +10,33 @@
 [submodule ".config/repos/polybar"]
 	path = .config/repos/polybar
 	url = https://github.com/polybar/polybar.git
+[submodule ".vim/pack/osupolo7/start/vim-surround"]
+	path = .vim/pack/osupolo7/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/pack/osupolo7/start/nerdtree"]
+	path = .vim/pack/osupolo7/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule ".vim/pack/osupolo7/start/vim-workspace"]
+	path = .vim/pack/osupolo7/start/vim-workspace
+	url = https://github.com/thaerkh/vim-workspace.git
+[submodule ".vim/pack/osupolo7/start/vim-devicons"]
+	path = .vim/pack/osupolo7/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule ".vim/pack/osupolo7/start/vim-fugitive"]
+	path = .vim/pack/osupolo7/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/pack/osupolo7/start/vim-man"]
+	path = .vim/pack/osupolo7/start/vim-man
+	url = https://github.com/vim-utils/vim-man.git
+[submodule ".vim/pack/osupolo7/start/vim-nerdtree-syntax-highlight"]
+	path = .vim/pack/osupolo7/start/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
+[submodule ".vim/pack/osupolo7/start/vim-nerdtree-tabs"]
+	path = .vim/pack/osupolo7/start/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule ".vim/pack/osupolo7/start/nerdcommenter"]
+	path = .vim/pack/osupolo7/start/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule ".config/repos/ranger-autojump"]
+	path = .config/ranger/plugins/ranger-autojump
+	url = https://github.com/fdw/ranger-autojump.git

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+connected() {
+    echo -e "GET http://google.com HTTP/1.0\n\n" | nc google.com 80 > /dev/null 2>&1
+
+    if [ $? -eq 0 ]; then
+        return true
+    else
+        return false
+    fi
+}
+
+offline=connected
+system_type=$(uname -s)
+
+install_python() {
+
+}
+
+install_brew() {
+
+}
+
+if $offline ; then
+
+else
+fi
+
+# Because Git submodule commands cannot operate without a work tree, they must
+# be run from within $HOME (assuming this is the root of your dotfiles)
+cd "$HOME"
+
+echo "Init submodules"
+yadm submodule update --recursive --init
