@@ -18,6 +18,11 @@ repos = [
     ("jistr", "vim-nerdtree-tabs", "master"),
     ("preservim", "nerdcommenter", "master"),
     ("fdw", "ranger-autojump", "main"),
+	("zsh-users", "antigen", "v2.2.3"),
+	("ohmyzsh", "ohmyzsh", "master"),
+	("spaceship-prompt", "spaceship-prompt", "v3.14.1"),
+	("zsh-users", "zsh-syntax-highlighting", "0.7.1"),
+	("zsh-users", "zsh-autosuggestions", "v0.7.0"),
 ]
 
 bundle_dir = os.path.join('..', 'bundles')
